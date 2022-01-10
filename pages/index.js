@@ -25,6 +25,15 @@ const HomeContainer = styled.div`
   grid-template-rows: auto 1fr;
   grid-template-areas: "header" "main";
   padding: 10rem;
+  min-width: 280px;
+
+  @media only screen and (max-width: 600px) {
+    padding: 2rem;
+  }
+
+  @media only screen and (max-width: 300px) {
+    padding: 1rem;
+  }
 `;
 
 const Header = styled.div`
