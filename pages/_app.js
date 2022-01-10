@@ -1,5 +1,5 @@
 import "@styles/globals.css";
-import { useRouter } from "next/router";
+import { useEffect, useRouter } from "next/router";
 import Script from "next/script";
 import * as gtag from "../lib/gtag";
 
