@@ -1,6 +1,7 @@
 import "@styles/globals.css";
-import { useEffect, useRouter } from "next/router";
+import { useRouter } from "next/router";
 import Script from "next/script";
+import { useEffect } from "react";
 import * as gtag from "../lib/gtag";
 
 function Application({ Component, pageProps }) {
