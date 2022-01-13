@@ -1,5 +1,5 @@
-import Head from "next/head";
-import styled from "styled-components";
+import Head from 'next/head';
+import styled from 'styled-components';
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ const HomeContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr;
-  grid-template-areas: "header" "main";
+  grid-template-areas: 'header' 'main';
   padding: 10rem;
   min-width: 280px;
 
