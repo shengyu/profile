@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   AiOutlineGithub,
   AiOutlineInstagram,
@@ -24,7 +23,7 @@ function SocialMediaButtons() {
         <AiOutlineInstagram size={32} />
       </IconWrapper>
       <IconWrapper
-        href="https://twitter.com/_shengyu"
+        href="https://twitter.com/_liushengyu"
         target="_blank"
         rel="noreferrer"
       >
