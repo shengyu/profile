@@ -23,7 +23,7 @@ function SocialMediaButtons() {
         <AiOutlineInstagram size={32} />
       </IconWrapper>
       <IconWrapper
-        href="https://twitter.com/_liushengyu"
+        href="https://twitter.com/stsyliu"
         target="_blank"
         rel="noreferrer"
       >
